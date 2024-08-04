@@ -1,0 +1,116 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #007acc; /* Azul mais claro */
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.navbar.active {
+  background-color: #006bb3; /* Azul um pouco mais escuro */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #d0d0d0;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .page-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .page-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .page-container .map-container {
+    margin-bottom: 20px;
+  }
+  
+  .page-container .attractions {
+    margin-top: 30px;
+  }
+  
+  .page-container .attractions h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .page-container .attractions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-container .attractions li {
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .page-container .attractions li:hover {
+    background: #e0e0e0;
+  }
+  
+  .page-container .attractions li strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  

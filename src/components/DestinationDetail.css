@@ -1,0 +1,54 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .attractions {
+    margin-top: 30px;
+  }
+  
+  .attractions h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .attractions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .attractions li {
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .attractions li strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  

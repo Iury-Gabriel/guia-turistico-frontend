@@ -1,0 +1,139 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(120deg, #0066cc, #0099ff);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.header .buttons {
+    margin-top: 2rem;
+}
+
+.header .btn {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: #0066cc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #005bb5;
+    color: white;
+}
+
+.features {
+    padding: 4rem 1rem;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    margin-top: 3.1rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .features {
+        padding: 2rem 1rem;
+    }
+
+    .features h2 {
+        font-size: 2rem;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
